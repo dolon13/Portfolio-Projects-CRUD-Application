@@ -26,26 +26,26 @@ This is a simple Laravel-based CRUD (Create, Read, Update, Delete) application f
 
 
 1. Clone the Repository
-git clone https://github.com/your-username/portfolio-crud.git
-cd portfolio-crud
+- git clone https://github.com/your-username/portfolio-crud.git
+- cd portfolio-crud
 
 2. Install Dependencies
-composer install
+- composer install
 
 3. Set Up Environment
-cp .env.example .env
-php artisan key:generate
+- cp .env.example .env
+- php artisan key:generate
 
 4. Edit .env file to match your database settings:
-DB_DATABASE=your_database_name
-DB_USERNAME=your_db_user
-DB_PASSWORD=your_db_password
+- DB_DATABASE=your_database_name
+- DB_USERNAME=your_db_user
+- DB_PASSWORD=your_db_password
 
 5. Run Migrations
-php artisan migrate
+- php artisan migrate
 
 5. Start Development Server
-php artisan serve
+- php artisan serve
 
 
 ## License
