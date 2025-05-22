@@ -15,22 +15,14 @@ This is a simple Laravel-based CRUD (Create, Read, Update, Delete) application f
 
 ## 📁 Project Structure
 
-app/
-├── Models/
-│ └── Project.php
-├── Http/
-│ └── Controllers/
-│ └── ProjectController.php
-resources/
-└── views/
-└── projects/
-├── index.blade.php
-├── create.blade.php
-├── edit.blade.php
-├── show.blade.php
-└── layout.blade.php
-routes/
-└── web.php
+app/Models/Project.php
+app/Http/Controllers/ProjectController.php
+resources/views/projects/index.blade.php
+resources/views/projects/create.blade.php
+resources/views/projects/edit.blade.php
+resources/views/projects/show.blade.php
+resources/views/layout.blade.php
+routes/web.php
 
 
 1. Clone the Repository
